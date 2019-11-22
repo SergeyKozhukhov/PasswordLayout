@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/lock_basis" />
+
+
+    <item android:drawable="@drawable/lock_clip"
+        android:gravity="center"
+
+        android:left="@dimen/lock_shape_item_lock_clip_side"
+        android:right="@dimen/lock_shape_item_lock_clip_side"
+        android:top="@dimen/lock_shape_item_lock_clip_side"
+        android:bottom="@dimen/lock_shape_item_lock_clip_side"
+
+        />
+
+</layer-list>

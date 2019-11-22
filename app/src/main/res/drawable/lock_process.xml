@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@drawable/lock_color_red"
+        android:maxLevel="3000"
+        android:minLevel="0"/>
+
+    <item
+        android:drawable="@drawable/lock_color_yellow"
+        android:maxLevel="7000"
+        android:minLevel="3001"/>
+
+    <item
+        android:drawable="@drawable/lock_color_green"
+        android:maxLevel="10000"
+        android:minLevel="7001"/>
+
+
+</level-list>

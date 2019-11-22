@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="lock_color_green_color">#228B22</color>
+    <color name="lock_color_red_color">#B22222</color>
+    <color name="lock_color_yellow_color">#FFD700</color>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_LinearLayout0_padding">16dp</dimen>
+    <dimen name="activity_LinearLayout1_margin">12dp</dimen>
+    <dimen name="activity_imageButton_copy_padding">16dp</dimen>
+    <dimen name="lock_basis_size_width">300dp</dimen>
+    <dimen name="lock_basis_size_height">50dp</dimen>
+    <dimen name="lock_basis_corners_radius">16dp</dimen>
+    <dimen name="lock_basis_stroke_width">4dp</dimen>
+    <dimen name="lock_basis_stroke_dashWidth">4dp</dimen>
+    <dimen name="lock_basis_stroke_dashGap">4dp</dimen>
+    <dimen name="lock_shape_item_lock_clip_side">10dp</dimen>
+    <dimen name="relative_box_corners_radius">16dp</dimen>
+    <dimen name="relative_box_stroke_width">4dp</dimen>
+    <dimen name="relative_box_stroke_dashWidth">2dp</dimen>
+    <dimen name="text_box_corners_radius">16dp</dimen>
+    <dimen name="text_box_stroke_width">4dp</dimen>
+    <dimen name="text_box_stroke_dashWidth">4dp</dimen>
+    <dimen name="text_box_stroke_dashGap">4dp</dimen>
+    <dimen name="activity_LinearLayout1_padding">12dp</dimen>
+    <dimen name="activity_textView_result_width">0dp</dimen>
+    <dimen name="activity_RelativeLayout_padding">12dp</dimen>
+    <dimen name="activity_textView_helpPasswordLength_marginTop">10dp</dimen>
+    <dimen name="activity_textView_helpPasswordLength_paddingLeft">10dp</dimen>
+    <dimen name="activity_editText_PasswordLength_marginTop">10dp</dimen>
+    <dimen name="activity_LinearLayout2_paddingRight">10dp</dimen>
+    <dimen name="activity_RelativeLayout_marginTop">10dp</dimen>
+</resources>

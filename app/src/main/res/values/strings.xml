@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Русские пароли</string>
+
+    <string name="MainActivity_clipboard_manager_title">Пароль</string>
+    <string name="MainActivity_mButtonCopy_toast_text_message_copied">Скопировано в буфер обмена</string>
+    <string name="activity_textView0_text">Введите пароль в русской раскладке</string>
+    <string name="activity_textView_text">qQwWeE</string>
+    <string name="activity_textView_symbols_text">Кол-во символов</string>
+    <string name="activity_textEdit_source_text">йЙцЦуУ</string>
+    <string name="activity_button_generatePassword_text">Сгенерировать новый пароль</string>
+    <string name="activity_textView_helpPasswordLength_text">Введите размер для \n нового пароля</string>
+    <string name="activity_editText_PasswordLength_text">10</string>
+    <string name="activity_checkBox_isUppercase_text">Заглавные</string>
+    <string name="activity_checkBox_isNumber_text">Цифры</string>
+    <string name="activity_checkBox_isSpecial_text">Спецcимволы</string>
+
+    <string name="dict_rus">йцукенгшщзхъфывапролджэячсмитьбю</string>
+    <string name="dict_eng">qwertyuiopasdfghjklzxcvbnm</string>
+    <string name="dict_eng_spec">qwertyuiop\[\]asdfghjkl;\'zxcvbnm&#x003C;&#x003E;</string>
+    <string name="dict_num">0123456789</string>
+
+    <!-- Список специальных символов: !"#$%&'()*+,-./:;<=>?@[\]^_ -->
+    <string name="dict_spec">&#x0021;&#x0022;&#x0023;&#x0024;&#x0025;&#x0026;&#x0027;&#x0028;&#x0029;&#x002A;&#x002B;&#x002C;&#x002D;&#x002E;&#x002F;&#x003A;&#x003B;&#x003C;&#x003D;&#x003D;&#x003E;&#x003F;&#x0040;&#x005B;&#x005C;&#x005D;&#x005E;&#x005F;&#x007B;&#x007C;&#x007D;&#x007E;</string>
+    <string name="activity_textView_textSafetyPassword_text">Надежность пароля</string>
+    <string name="MainActivity_mButtonCopy_toast_text_message_error">Введите данные</string>
+
+    <plurals name="plurals_symbols">
+        <item quantity="one">%1$d символ</item>
+        <item quantity="few">%1$d символа</item>
+        <item quantity="many">%1$d символов</item>
+        <item quantity="other">%1$d символов</item>
+    </plurals>
+
+    <string-array name="textSafetyPassword">
+        <item>Введите пароль</item>
+        <item>Опасный</item>
+        <item>Ужасный</item>
+        <item>Слабый</item>
+        <item>Ниже среднего</item>
+        <item>Приемлемый</item>
+        <item>Нормальный</item>
+        <item>Лучше среднего</item>
+        <item>Замечательный</item>
+        <item>Отличный</item>
+        <item>Великолепный</item>
+    </string-array>
+
+</resources>
