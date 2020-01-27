@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="@string/pref_copy_key"
+        android:summary="@string/pref_copy_summary"
+        android:title="@string/pref_copy_title"
+        app:defaultValue="@bool/pref_copy_default"
+        app:iconSpaceReserved="false" />
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/pref_category_generate_title">
+
+        <SwitchPreference
+            android:summary="@string/pref_uppercase_summary"
+            app:defaultValue="@bool/pref_uppercase_default"
+            app:iconSpaceReserved="false"
+            app:key="@string/pref_uppercase_key"
+            app:title="@string/pref_uppercase_title" />
+
+        <SwitchPreference
+            android:summary="@string/pref_number_summary"
+            app:defaultValue="@bool/pref_number_default"
+            app:iconSpaceReserved="false"
+            app:key="@string/pref_number_key"
+            app:title="@string/pref_number_title" />
+
+        <SwitchPreference
+            android:summary="@string/pref_special_summary"
+            app:defaultValue="@bool/pref_special_default"
+            app:iconSpaceReserved="false"
+            app:key="@string/pref_special_key"
+            app:title="@string/pref_special_title" />
+
+        <SeekBarPreference
+            android:max="30"
+            android:summary="@string/pref_length_summary"
+            app:defaultValue="@integer/pref_length_default"
+            app:iconSpaceReserved="false"
+            app:key="@string/pref_length_key"
+            app:min="4"
+            app:showSeekBarValue="true"
+            app:title="@string/pref_length_title" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

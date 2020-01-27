@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pref_copy_key" translatable="false">key_automatic_copy</string>
+    <string name="pref_uppercase_key" translatable="false">key_uppercase</string>
+    <string name="pref_number_key" translatable="false">key_number</string>
+    <string name="pref_special_key" translatable="false">key_special</string>
+    <string name="pref_length_key" translatable="false">key_length</string>
+    <string name="pref_try_key" translatable="false">rr</string>
+
+    <integer name="pref_length_default">10</integer>
+
+
+</resources>
