@@ -70,14 +70,8 @@ public class PasswordFragment extends Fragment {
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
         initData();
-        initListeners();
-    }
-
-
-    @Override
-    public void onStart() {
-        super.onStart();
         setDataFromPreferences();
+        initListeners();
     }
 
     private void initData() {

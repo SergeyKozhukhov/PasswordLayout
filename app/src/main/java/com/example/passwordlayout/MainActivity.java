@@ -1,8 +1,6 @@
 package com.example.passwordlayout;
 
 import android.os.Bundle;
-import android.view.View;
-
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity implements PasswordFragment.SettingFragmentHolder{
